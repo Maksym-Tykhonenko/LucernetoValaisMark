@@ -4,7 +4,7 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: LucernetoValaisAPIKey
+      app_store_connect: LucernetoValaisAPIKeyNew
     environment:
       ios_signing:
         distribution_type: app_store
@@ -42,7 +42,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - markdashevskiy31@gmail.com
+          - maksym.tykhonenko88@gmail.com
         notify:
           success: true
           failure: true
